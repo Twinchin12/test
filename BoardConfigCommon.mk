@@ -131,6 +131,9 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := LD=ld.lld LLVM=1 LLVM_IAS=1
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 KERNEL_LD := LD=ld.lld
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
+
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := kona
