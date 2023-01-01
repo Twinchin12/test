@@ -3,6 +3,7 @@ rw_dir_file(hal_power_default, vendor_proc_display)
 allow hal_power_default {
   vendor_sysfs_devfreq
   vendor_sysfs_msm_subsys
+  sysfs_fs_f2fs
 }:dir search;
 
 allow hal_power_default {
@@ -14,6 +15,7 @@ allow hal_power_default {
   vendor_sysfs_kgsl
   vendor_sysfs_msm_subsys
   vendor_sysfs_scsi_host
+  sysfs_fs_f2fs
 }:{
   file
   lnk_file
