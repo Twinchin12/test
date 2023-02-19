@@ -230,6 +230,24 @@ android_app_import {
 }
 
 dex_import {
+	name: "QPerformance",
+	owner: "oneplus",
+	jars: ["proprietary/system/framework/QPerformance.jar"],
+}
+
+dex_import {
+	name: "QXPerformance",
+	owner: "oneplus",
+	jars: ["proprietary/system/framework/QXPerformance.jar"],
+}
+
+dex_import {
+	name: "UxPerformance",
+	owner: "oneplus",
+	jars: ["proprietary/system/framework/UxPerformance.jar"],
+}
+
+dex_import {
 	name: "WfdCommon",
 	owner: "oneplus",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
