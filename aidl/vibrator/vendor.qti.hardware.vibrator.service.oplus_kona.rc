@@ -1,0 +1,14 @@
+on boot
+    chown system system /sys/class/leds/vibrator/activate
+    chown system system /sys/class/leds/vibrator/brightness
+    chown system system /sys/class/leds/vibrator/duration
+    chown system system /sys/class/leds/vibrator/f0_data
+    chown system system /sys/class/leds/vibrator/gain
+    chown system system /sys/class/leds/vibrator/loop
+    chown system system /sys/class/leds/vibrator/seq
+    chown system system /sys/class/leds/vibrator/vmax
+
+service vendor.qti.vibrator /vendor/bin/hw/vendor.qti.hardware.vibrator.service.oplus_kona
+    class hal
+    user system
+    group system input
