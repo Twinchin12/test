@@ -63,6 +63,10 @@ on init
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
     
     setprop vendor.boot.project_name ${ro.boot.project_name}
+    
+    # Enable touchpanel's offscreen gestures
+    chown system system /proc/touchpanel/aosp_gesture_enable
+    write /proc/touchpanel/aosp_gesture_enable 1
 
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
