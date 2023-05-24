@@ -70,3 +70,8 @@ ro.sf.blurs_are_expensive=1
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
+
+# Adaptive Suspend
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
