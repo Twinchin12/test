@@ -340,6 +340,12 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
+# Preopt SystemUI    
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    Launcher3QuickStep
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
