@@ -11,7 +11,7 @@ persist.vendor.btstack.enable.twsplussho=true
 
 # Display
 debug.sf.enable_hwc_vds=1
-debug.sf.latch_unsignaled=0
+debug.sf.auto_latch_unsignaled=true
 
 # Feature flags
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
