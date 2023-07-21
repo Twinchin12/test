@@ -268,15 +268,6 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.performance</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IPerformance</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.performance</name>
         <version>1.0</version>
         <interface>
             <name>IPerformance</name>

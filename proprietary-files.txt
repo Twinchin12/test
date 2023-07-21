@@ -1035,11 +1035,6 @@ vendor/lib64/libspcom.so
 # Perf
 odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
-odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
-odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_performance.xml
-odm/lib/vendor.oplus.hardware.performance@1.0.so
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -1061,13 +1056,6 @@ vendor/lib64/libperfioctl.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
-
-# Perf - from OOS 13 qssi-user-13-TP1A.220905.001-1670556311503-release-keys--IN
-system/framework/QPerformance.jar
-system/framework/QXPerformance.jar
-system/framework/UxPerformance.jar
-system_ext/lib/libqti_performance.so
-system_ext/lib64/libqti_performance.so
 
 # Power-off alarm
 product/app/PowerOffAlarm/PowerOffAlarm.apk|eda6abb2108245e143eafc66b42c9da2e37d416b
