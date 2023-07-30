@@ -144,9 +144,6 @@ vendor.display.disable_rotator_downscale=1
 # Display AOD
 debug.force_no_blanking=true
 
-# Display post-processing
-debug.sf.disable_client_composition_cache=1
-
 # Dolby
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
@@ -184,7 +181,6 @@ debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
 debug.sf.latch_unsignaled=0
 persist.sys.sf.color_saturation=1.0
-debug.sf.latch_unsignaled=0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 debug.egl.hw=0
