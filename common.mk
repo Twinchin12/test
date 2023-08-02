@@ -335,12 +335,6 @@ PRODUCT_BOOT_JARS += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Perf
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
-
-$(call inherit-product, hardware/oplus/aidl/power-libperfmgr/power_product.mk)
-
 # Preopt SystemUI    
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
@@ -349,6 +343,12 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-qti \
+    android.hardware.power@1.2.vendor \
+    vendor.qti.hardware.perf@2.2.vendor
 
 # QMI
 PRODUCT_PACKAGES += \
